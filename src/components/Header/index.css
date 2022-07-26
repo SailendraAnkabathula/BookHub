@@ -1,0 +1,119 @@
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+}
+.nav-content {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e5e5;
+  width: 100%;
+}
+.navbar-website-logo {
+  height: 24px;
+  width: 92px;
+}
+@media screen and (min-width: 768px) {
+  .navbar-website-logo {
+    height: 41px;
+    width: 133px;
+  }
+}
+.desktop-view-links-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  flex: 1;
+}
+@media screen and (max-width: 767px) {
+  .desktop-view-links-container {
+    display: none;
+  }
+}
+
+.links-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 0px;
+}
+
+.desktop-view-logout-button {
+  width: 73px;
+  height: 32px;
+  border-radius: 4px;
+  padding: 8px 16px 8px 16px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  background-color: #0284c7;
+  color: #f8fafc;
+  border: none;
+}
+
+@media screen and (max-width: 767px) {
+  .desktop-view-logout-button {
+    display: none;
+  }
+}
+.mobile-view-logout-button {
+  width: 73px;
+  height: 32px;
+  border-radius: 4px;
+  padding: 8px 16px 8px 16px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  margin: 0;
+  background-color: #0284c7;
+  color: #f8fafc;
+  border: none;
+}
+
+.mobile-view-menu-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+.close-button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.menu-icon {
+  height: 15px;
+  width: 15px;
+}
+.close-icon {
+  height: 15px;
+  width: 15px;
+}
+@media screen and (min-width: 768px) {
+  .mobile-view-menu-button {
+    display: none;
+  }
+}
+.mobile-view-menu-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: '#e5e5e5';
+}
+.active-route {
+  color: #0284c7;
+}

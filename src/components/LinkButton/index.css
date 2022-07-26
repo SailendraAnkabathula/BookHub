@@ -1,0 +1,23 @@
+.select-route-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.link-item {
+  padding-left: 10px;
+  padding-right: 10px;
+  list-style-type: none;
+}
+.link-content {
+  text-decoration: none;
+}
+
+.active-route {
+  color: #0284c7;
+}

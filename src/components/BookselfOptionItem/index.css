@@ -1,0 +1,44 @@
+.option-item {
+  list-style-type: none;
+}
+.option-button {
+  padding: 4px 8px;
+  border: 1px solid #0284c7;
+  margin-right: 10px;
+  border-radius: 25px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  cursor: pointer;
+}
+@media screen and (min-width: 768px) {
+  .option-button {
+    background-color: transparent;
+    border: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+.active {
+  color: #f8fafc;
+  background: #0284c7;
+}
+.in-active {
+  color: #0284c7;
+  background: transparent;
+}
+@media screen and (min-width: 768px) {
+  .active {
+    background-color: transparent;
+    color: #0284c7;
+  }
+  .in-active {
+    background-color: transparent;
+    color: #475569;
+  }
+}

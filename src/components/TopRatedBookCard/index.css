@@ -1,0 +1,55 @@
+.link-container {
+  text-decoration: none;
+  width: 250px;
+  margin: 10px;
+}
+
+.slick-item {
+  text-align: center;
+  width: 146px;
+}
+@media screen and (min-width: 768px) {
+  .slick-item {
+    width: 250px;
+    margin: 10px;
+  }
+}
+.book-image {
+  width: 146px;
+  height: 99px;
+  margin-right: 10px;
+  border-radius: 2px;
+}
+@media screen and (min-width: 768px) {
+  .book-image {
+    width: 250px;
+    height: 154px;
+    border-radius: 4px;
+  }
+}
+
+.book-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  text-align: center;
+  line-height: 1.5;
+  margin: 0;
+  font-size: 16px;
+  color: #334155;
+}
+@media screen and (min-width: 768px) {
+  .book-title {
+    font-size: 18px;
+    width: 250px;
+  }
+}
+.book-author-name-text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  text-align: center;
+  color: #475569;
+  font-size: 14px;
+  margin: 0;
+}

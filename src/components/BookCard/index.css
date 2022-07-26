@@ -1,0 +1,94 @@
+.item-card {
+  width: 400px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.book-card-item {
+  display: flex;
+  margin: auto;
+  width: 90%;
+}
+@media screen and (min-width: 768px) {
+  .item-card {
+    width: 40%;
+    max-width: 400px;
+  }
+}
+.cover-image {
+  width: 133px;
+  height: 155px;
+  border-radius: 8px;
+}
+.book-details-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  width: 100%;
+}
+.rating-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 300px;
+  align-items: center;
+  margin: 0;
+}
+.each-book-item-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #334155;
+  margin: 0;
+}
+.author-name {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #475569;
+}
+.rating-title {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #475569;
+  margin: 0;
+  padding-right: 10px;
+}
+.star-with-rating {
+  display: flex;
+  align-items: center;
+}
+.rating-value {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  color: #334155;
+  margin: 0;
+  padding-left: 10px;
+}
+.book-status {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #475569;
+}
+.reading-status {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #0284c7;
+}
