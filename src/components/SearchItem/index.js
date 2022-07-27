@@ -16,7 +16,7 @@ const SearchItem = props => {
   }
 
   return (
-    <div className="render-search-input-container mobile-view">
+    <div className="render-search-input-container">
       <input
         type="search"
         value={searchValue}
